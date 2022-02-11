@@ -1,0 +1,990 @@
+/*Basic configuration for page*/
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+*{
+  font-family: "Poppins", sans-serif;
+}
+ul{
+  list-style: none;
+}
+svg,li{
+  transition: all 0.35s;
+}
+ul,h1,h2,h3,h4,p,a,button{
+  margin: 0;
+  padding: 0;
+  
+}
+.NONE{
+  display: none;
+}
+button{
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.btn{
+  border-radius: 27px;
+  padding: 14px 36px;
+  transition: all 0.35s;
+}
+.btn:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+button:hover{
+  cursor: pointer;
+}
+/*Customization For a page*/
+
+/*Header style*/
+header .MenuHeaderPart{
+  width: 83%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  top: 38px;
+}
+header .GlobalMenuBar .ListOfMenuBar ul{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  min-height: 166px;
+}
+header .GlobalMenuBar .SeparatorForGlobalMenuBar{
+  max-height: 1.49px;
+  width: 80%;
+  margin: auto;
+  background: #544a6d;
+  margin-top: 32px;
+  min-height: 1.49px;
+  margin: 0;
+}
+header .GlobalMenuBar .ListOfMenuBar ul button{
+  color: white;
+  font-weight: 700;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  transition: opacity 0.35s;
+}
+header .GlobalMenuBar .LoginSignUPZone .ULForLoginSignInUPZone .LoginButtonLink:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+header .GlobalMenuBar{
+  width: 83%;
+  background: #3a3053;
+  position: relative;
+  border-radius: 11px;
+  height: 100%;
+  min-height: 47vh;
+  min-width: 344px;
+  padding-top: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 19px;
+  margin: auto;
+  top: 69px;
+}
+header .GlobalMenuBar .LoginSignUPZone .ULForLoginSignInUPZone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+  height: 106px;
+  flex-direction: column;
+  transition: opacity 0.35s;
+  padding: 0; 
+}
+.LoginButtonLink{
+  transition: opacity 0.35s;
+}
+header .GlobalMenuBar .LoginSignUPZone .ULForLoginSignInUPZone .SignUpButtonLink li{
+  background: #2bd1d1;
+  border-radius: 60px;
+  padding: 11px 100px;
+}
+header .GlobalMenuBar .LoginSignUPZone ul button{
+  color: white;
+  font-weight: 700;
+  font-size: 1.3em;
+  padding: 0;
+}
+header .MenuBarForPhone{
+  width: 100%;
+  max-width: 25px;
+  max-height: 40px;
+}
+header .MenuBarForPhone{
+  display: none;
+}
+header .ContainerOfLogoAndFirstMenuBar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+header .LogoPrincipale{
+  width: 121px;
+  height: 33px;
+}
+header .FirstMenuBar{
+  width: 285px;
+}
+header .FirstMenuBar .PropositionMenuBar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+header .SecondMenubar{
+  width: 180px;
+}
+header .SecondMenubar .PropositionMenuBarTwo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+  padding: 0;
+}
+header .FirstMenuBar ul button,header .SecondMenubar ul .LoginButtonLink{
+  color: #9e9aa7;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+header .GlobalMenuBar{
+  display: none;
+}
+header .SecondMenubar ul .SignUpButtonLink li{
+  color: white;
+  background: #2acfcf;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 7px 20px;
+  font-size: 1.1em;
+}
+header .GlobalMenuBar .ListOfMenuBar ul button:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+header .SecondMenubar ul .SignUpButtonLink li:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+header .SecondMenubar ul .LoginButtonLink:hover,header .FirstMenuBar ul li:hover{
+  cursor: pointer;
+  color: black;
+}
+
+
+.MenuBarForPhone:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+/*First section*/
+.FirstSection{
+  width: 83%;
+  margin: auto;
+}
+.ShortenButton{
+  color: white;
+  max-height: 56px;
+  background: #2bd1d0;
+  border-radius: 8px;
+  padding: 14px 28px;
+  margin: 0;
+  margin-left: 14px;
+  transition: 0.35s;
+  font-weight: 600;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FirstSection .LeftAndRightPart{
+  display: flex;
+  margin-top: 50px;
+}
+.FirstSection .LeftPart h1{
+  font-size: 4.3em;
+  font-weight: 700;
+}
+.FirstSection .LeftPart h3{
+  font-weight: 700;
+  opacity: 0.32;
+  font-size: 1.32em;
+  margin-top: 10px;
+}
+.FirstSection .LeftPart{
+  min-width: 514px;
+  margin-top: 102px;
+}
+.FirstSection .RightPart{
+  position: relative;
+  left: 188px;
+  top: 40px;
+  max-height: 482px;
+  display: flex;
+  align-items: center;
+}
+.FirstSection .RightPart img{
+  width: 100%;
+  min-width: 75vh;
+  height: 100%;
+}
+.GetStartedButton{
+  background: #2acfcf;
+  font-size: 1.3em;
+  padding: 11px 30px;
+  transition: 0.35s;
+  border-radius: 26px;
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+/*Second Section style*/
+.SecondSection .TopPart form .ShortenButton:hover{
+  opacity: 0.7;
+}
+.SecondSection{
+  background-color: #f0f1f6;
+  position: relative;
+  height: 100%;
+  padding-bottom: 43px;
+}
+.SecondSection .Container{
+  width: 83%;
+  margin: auto;
+}
+.SecondSection .IntroductionText{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 0 0 0;
+  width: 100%;
+  justify-content: space-between;
+  min-height: 85px;
+}
+.SecondSection .IntroductionText p{
+  width: 27em;
+  text-align: center;
+  margin-top: -5px;
+  opacity: 0.6;
+}
+.SecondSection .IntroductionText h2{
+  opacity: 0.8;
+  font-size: 1.9em;
+}
+.SecondSection .TopPart{
+  background-image: url("./images/bg-shorten-desktop.svg");
+  background-size: cover;
+  background-color: #3b3054;
+  height: 149px;
+  border-radius: 11.5px;
+  z-index: 5;
+  width: 100%;
+  margin-top: 200px;
+  position: relative;
+  bottom: 75px;
+}
+.SecondSection .TopPart form input{
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  padding: 11px 30px;
+  font-size: 1.3em;
+}
+.SecondSection .TopPart form .InputError{
+  border: 2px solid #ff4e00;
+}
+.SecondSection .TopPart form{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.errorMessage{
+  position: absolute;
+  bottom: -38px;
+  left: -7px;
+  color: red;
+  padding-left: 0.65em;
+}
+.SecondSection .InformationCards{
+  display: flex;
+  padding: 4em 0px 0 0;
+  width: 100%;
+  position: relative;
+}
+.SecondSection .InformationCards .card{
+  padding: 0 20px;
+  background: white;
+  width: 100%;
+  min-height: 16em;
+  max-height: 17em;
+  z-index: 1;
+  position: relative;
+}
+.SecondSection .InformationCards .card h3{
+  opacity: 0.8;
+  margin-bottom: 26px;
+}
+.SecondSection .InformationCards .card p{
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+.SecondSection .InformationCards .card .IconZone{
+  background: #3b3054;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+  display: flex;
+  bottom: 34px;
+}
+.SecondSection .FirstPart .bottomPart{
+  width: 100%;
+  margin-bottom: 20px;
+  height: 100%;
+  margin-top: -10px;
+}
+.SecondSection .FirstPart .bottomPart .resultOfRequist{
+  width: 100%;
+  min-height: 60px;
+  background: white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px
+}
+.SecondSection .FirstPart .bottomPart .resultOfRequist .RealLongLink{
+  padding: 22px 2em;
+}
+.SecondSection .FirstPart .bottomPart .resultOfRequist .ShortLinkAndButton{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.SecondSection .FirstPart .bottomPart .resultOfRequist .ShortLinkAndButton p
+{
+  color:#2bd1d0;
+}
+.SecondSection .InputContainer{
+  width: 65%;
+  margin-right: 77px;
+  position: relative;
+}
+.CopiedButton{
+  background: #3a2f53;
+  color: white;
+  border-radius: 8px;
+  margin-left: 25px;
+  font-weight: 800;
+  margin-right: 2em;
+}
+.CopyButton{
+  background: #2bd1d0;
+  color: white;
+  border-radius: 8px;
+  margin-left: 25px;
+  font-weight: 800;
+  margin-right: 2em;
+}
+.SecondSection .InformationCards .card2{
+  margin: 40px 0 0 25px;
+}
+.SecondSection .InformationCards .card3{
+  margin: 80px 0 0 25px;;
+}
+.SecondSection .BlueLine{
+  height: 13px;
+  width: 44%;
+  background-color: #2acfcf;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+}
+.GradientCard1,.GradientCard2,.GradientCard3{
+  width: 0%;
+  height: 5px;
+  background: linear-gradient(to right,#00fbfb,#b200ff);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s linear;
+}
+.ShortenButtonDisabled{
+  color: white;
+  border-radius: 8px;
+  background: #9be3e2;
+  padding: 14px 28px;
+  margin: 0;
+  margin-left: 14px;
+  opacity: 1;
+  transition: 0.35s;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.ShortenButtonDisabled:hover{
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+*:hover+.GradientCard1{
+  width: 100%;
+}
+*:hover+.GradientCard2{
+  width: 100%;
+}
+*:hover+.GradientCard3{
+  width: 100%;
+}
+
+/*Custom Section Three*/
+.TherdSection h2{
+  font-size: 2em;
+  color: white;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.TherdSection{
+  background-image: url('./images/bg-boost-desktop.svg');
+  background-size: cover;
+  height: 225px;
+  background-color: #3a3053;
+  position: relative;
+}
+.TherdSection .Container{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  text-align: center;
+}
+.GetStartedButtonScaller:hover{
+  transform: scale(1.15);
+}
+
+/*Custumization of Section four*/
+
+.SectionFour{
+  color: white;
+  background-color: #232027;
+  min-height: 200px;
+}
+.SectionFour ul{
+  list-style: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.SectionFour .listStyle h3{
+  margin-bottom: 23px;
+  font-size: 1.45em;
+}
+.SectionFour ul li{
+  margin-bottom: 10px;
+}
+.SectionFour ul button{
+  color: white;
+  opacity: 0.7;
+  font-size: 0.92em;
+}
+.SectionFour ul button:hover{
+  color: cyan;
+}
+.SectionFour .TherdListStyleInSectionFour{
+  margin-top: 28px;
+}
+.SectionFour .IconZone{
+  margin-top: 2.8em;
+}
+.SectionFour .AllListStyle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-left: 100px;
+  margin-top: 11px;
+  max-width: 457px;
+}
+.SectionFour .SocialMediaList{
+  width: 100%;
+  max-width: 160px;
+  margin-top: 2.9em;
+  height: 100%;
+}
+.SectionFour .SocialMediaList ul{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.SectionFour .Container{
+  width: 83%;
+  margin: auto;
+  color: white;
+  display: flex;
+  padding-bottom: 4.1em;
+  justify-content: space-between;
+  min-height: 200px;
+}
+
+.FacebookOnHover{
+  fill: rgb(26,101,249);
+}
+.FacebookSvgOnHover{
+  background: white;
+}
+.TwitterOnHover{
+  fill: #0077ff;
+}
+.PinterestOnHover{
+  fill: red;
+}
+.PinterestSvgOnHover{
+  background: white;
+}
+
+.svgPinterest{
+  transition: background-color 0.35s;
+  border-radius: 50%;
+}
+.PathWhite{
+  fill: #fff;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width:1185px){
+  .FirstSection .RightPart{
+    position: relative;
+    left: 83px;
+  }
+  .FirstSection .LeftPart h1 {
+    font-size: 3.6em;
+    font-weight: 700;
+  }
+  .FirstSection .LeftPart h3 {
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+  .GetStartedButton{
+    font-size: 1.15em;
+  }
+  .FirstSection .LeftPart {
+    min-width: 346px;
+    margin-top: 102px;
+  }
+}
+@media screen and (max-width:1004px){
+  .FirstSection .RightPart {
+    position: relative;
+    left: 32px;
+  }
+  .FirstSection .RightPart img {
+    width: 100%;
+    min-width: 62vh;
+    height: 82%;
+  }
+}
+@media screen and (max-width:893px){
+  .FirstSection .LeftPart h1 {
+    font-size: 3.1em;
+    font-weight: 700;
+  }
+  .FirstSection .LeftPart h3 {
+    font-weight: 700;
+    font-size: 1em;
+  }
+  .GetStartedButton {
+    font-size: 1em;
+  }
+  .FirstSection .LeftPart {
+    min-width: 299px;
+    margin-top: 102px;
+  }
+}
+@media screen and (max-width:790px){
+  /*Change Header*/
+  .FirstSection .ContainerForAWorkerImage {
+    position: relative;
+    left: 6px;
+    margin-top: -434px;
+  }
+  header .MenuBarForPhone{
+    display: block;
+  }
+  header .GlobalMenuBar{
+    display: flex;
+  }
+  header .ContainerOfLogoAndFirstMenuBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .FirstMenuBar,.SecondMenubar{
+    display: none;
+  }
+  header .MenuBarForPhone{
+    display: flex;
+  }
+  .FirstSection .LeftAndRightPart {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column-reverse;
+  }
+  .SecondSection .TopPart form {
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .SecondSection .TopPart{
+    height: 185px;
+  }
+  .FirstSection .LeftPart {
+    min-width: 300px;
+    margin-top: 102px;
+    text-align: center;
+  }
+  .FirstSection .LeftPart h1 {
+    font-size: 3.1em;
+    font-weight: 700;
+  }
+  .SecondSection .TopPart form input {
+    width: 100%;
+    padding: 11px 6px;
+  }
+  .SecondSection .ShortenButton,.ShortenButtonDisabled{
+    width: 90%;
+    margin: auto;
+    padding: 15px 0;
+  }
+  .SecondSection .InputContainer {
+    width: 90%;
+    margin: auto;
+    position: relative;
+  }
+  .InputContainer .errorMessage {
+    position: absolute;
+    bottom: -27px;
+    left: -7px;
+  }
+}
+@media screen and (max-width:846px){
+  .ShortenButton{
+    color: white;
+    background: #2bd1d0;
+    border-radius: 8px;
+    padding: 3px 28px;
+    margin: 0;
+    margin-left: 14px;
+    transition: 0.35s;
+    font-weight: 600;
+    font-size: 1.1em;
+  }
+  .SecondSection .TopPart form {
+    padding: 0 16px;
+  }
+}
+@media screen and (max-width:964px){
+  .errorMessage {
+    position: absolute;
+    bottom: -48px;
+    left: -7px;
+    color: red;
+    padding-left: 0.65em;
+  }
+}
+@media screen and (max-width:1182px){
+  .SecondSection .card .textZone{
+    margin-bottom: 24px;
+    position: relative;
+    bottom: 21px;
+  }
+  .SecondSection .InformationCards .card h3 {
+    margin-bottom: 8px;
+  }
+}
+@media screen and (max-width:969px){
+  .SecondSection .InformationCards .card p{
+    font-size: 0.93em;
+    letter-spacing: 0.5px;
+  }
+  .SecondSection .InformationCards .card h3{
+    font-size: 1em;
+  }
+  .SecondSection .InformationCards .card{
+    width: 100%;
+    min-height: 16em;
+    max-height: 19.5em;
+    height: 100%;
+  }
+
+}
+/*We pass to phone mode */
+@media screen and (max-width:762px){
+  .SecondSection .InformationCards {
+    display: flex;
+    padding: 4em 0px 0 0;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+  }
+  .SecondSection .InformationCards .card {
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+  }
+  .SecondSection .card .textZone {
+    margin-bottom: 24px;
+    position: relative;
+  }
+  .SecondSection .InformationCards .card2,.SecondSection .InformationCards .card3{
+    margin: 0;
+    margin-top: 50px;
+  }
+  .SecondSection .InformationCards .card3{
+    margin-bottom: 57px;
+  }
+  .SecondSection .InformationCards .card p {
+    font-size: 1.15em;
+    letter-spacing: 1.2px;
+  }
+  .SecondSection .InformationCards .card h3{
+    font-size: 1.65em;
+  }
+  .SecondSection .BlueLine {
+    height: 60%;
+    width: 13px;
+  }
+
+  .SectionFour .Container {
+    justify-content: space-between;
+    min-height: 200px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .SectionFour .AllListStyle{
+    display: flex;
+    flex-direction: column;
+    transform: scale(1.2);
+    margin-top: 56px;
+  }
+  .SectionFour .AllListStyle .listStyle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .SectionFour ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .SectionFour .SocialMediaList {
+    width: 100%;
+    max-width: 140px;
+    margin-top: 2.9em;
+    height: 100%;
+    position: relative;
+    left: 0;
+    transform: scale(1.1);
+    top: 23px;
+  }
+  body .SectionFour .IconZone {
+    margin-top: 2.8em;
+    position: relative;
+    right: 3px;
+    transform: scale(1.5);
+    margin-bottom: 29px;
+  }
+}
+/*End of phone mode*/
+
+@media screen and (max-width:1090px){
+  .SectionFour .AllListStyle {
+    margin-left: 23px;
+    max-width: 394px;
+  }
+  .SectionFour .listStyle h3 {
+    margin-bottom: 23px;
+    font-size: 1.2em;
+  }
+  .SectionFour ul li {
+    margin-bottom: 10px;
+    font-size: 0.95em;
+  }
+  .SectionFour .SocialMediaList {
+    width: 100%;
+    max-width: 140px;
+    margin-top: 2.9em;
+    height: 100%;
+    transform: scale(0.95);
+    position: relative;
+    left: 23px;
+  }
+}
+@media screen and (max-width:890px){
+  .SectionFour .IconZone {
+    margin-top: 2.8em;
+    position: relative;
+    right: 33px;
+  }
+  .SectionFour .AllListStyle {
+    margin-left: -13px;
+    max-width: 373px;
+  }
+}
+@media screen and (max-width:620px){
+  .SecondSection .FirstPart .bottomPart .resultOfRequist {
+    width: 100%;
+    min-height: 60px;
+    background: white;
+    border-radius: 6px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .FirstSection .ContainerForAWorkerImage {
+    position: relative;
+    left: 4px;
+    margin-top: -434px;
+    overflow-x: scroll;
+  }
+  .SectionFour .Container {
+    width: 83%;
+    margin: auto;
+    color: white;
+    display: flex;
+    padding-bottom: 7.1em;
+    justify-content: space-between;
+    min-height: 200px;
+  }
+  .SecondSection .FirstPart .bottomPart .resultOfRequist .ShortLinkAndButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+  .CopiedButton {
+    background: #3a2f53;
+    color: white;
+    border-radius: 8px;
+    font-weight: 800;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  .CopyButton{
+    background: #2acfcf;
+    color: white;
+    border-radius: 8px;
+    font-weight: 800;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  .SecondSection .FirstPart .bottomPart .resultOfRequist .RealLongLink {
+    padding: 22px 0;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+/*KeyframesAnimation*/
+@media screen and (max-width:790px){
+  header .GlobalMenuBar{
+    display: flex;
+  }
+  .RightPartDisabled{
+    animation: ImageLeft 0.5s forwards ease-out;
+  }
+  .MoveCardAnimation{
+    animation: MoveCardAnimation 0.5s forwards ease-out;
+  }
+  .RightPart{
+    animation: MoveRightPart 0.8s forwards ease-out;
+  }
+  .ReturnMoveCardAnimation{
+    animation: MenuCardAnimation 0.5s forwards ease-out;
+  }
+}
+@media screen and (max-width:459px){
+  .SecondSection .IntroductionText h2 {
+    opacity: 0.8;
+    font-size: 1.5em;
+  } 
+  .SecondSection .IntroductionText p {
+    width: 21em;
+    text-align: center;
+    margin-top: 3px;
+    opacity: 0.6;
+  }
+  .FirstSection .ContainerForAWorkerImage {
+    position: relative;
+    left: -16px;
+    margin-top: -360px;
+    overflow-x: scroll;
+  }
+}
+@keyframes MenuCardAnimation{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(720px);
+  }
+}
+@keyframes MoveRightPart{
+  0%{
+    transform: translateX(-670px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@keyframes MoveCardAnimation{
+  0%{
+    transform: translateX(-670px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@keyframes ImageLeft{
+  90%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+    transform: translateX(670px);
+  }
+}
+header .none{
+  opacity: 0;
+}
